@@ -19,7 +19,9 @@ export default class YouTubeDebugger extends React.Component{
   }
 
   handleBitrate = () =>{
-
+    this.setState({
+      settings: object.assign({},this.state.settings, {}))
+    }
   }
 
   handleResolution = () =>{
