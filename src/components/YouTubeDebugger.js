@@ -20,7 +20,7 @@ export default class YouTubeDebugger extends React.Component{
 
   handleBitrate = () =>{
     this.setState({
-      settings: object.assign({},this.state.settings, {bitrate: 12}))
+      settings: Object.assign({},this.state.settings, {bitrate: 12}))
     }
   }
 
